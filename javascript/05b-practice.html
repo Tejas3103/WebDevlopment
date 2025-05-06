@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Inline Calculator</title>
+</head>
+<body>
+
+  <p>Simple Calculator</p>
+
+  <!-- Row 1: digits 1,2,3 and plus sign -->
+  <p>
+    <button onClick="calculation += '1'; console.log(calculation);">1</button>
+    <button onClick="calculation += '2'; console.log(calculation);">2</button>
+    <button onClick="calculation += '3'; console.log(calculation);">3</button>
+    <button onClick="calculation += '+'; console.log(calculation);">+</button>
+  </p>
+
+  <!-- Row 2: digits 4,5,6 and minus sign -->
+  <p>
+    <button onClick="calculation += '4'; console.log(calculation);">4</button>
+    <button onClick="calculation += '5'; console.log(calculation);">5</button>
+    <button onClick="calculation += '6'; console.log(calculation);">6</button>
+    <button onClick="calculation += '-'; console.log(calculation);">-</button>
+  </p>
+
+  <!-- Row 3: digits 7,8,9 and multiply sign -->
+  <p>
+    <button onClick="calculation += '7'; console.log(calculation);">7</button>
+    <button onClick="calculation += '8'; console.log(calculation);">8</button>
+    <button onClick="calculation += '9'; console.log(calculation);">9</button>
+    <button onClick="calculation += '*'; console.log(calculation);">*</button>
+  </p>
+
+  <!-- Row 4: digit 0, divide, clear, and equals -->
+  <p>
+    <button onClick="calculation += '0'; console.log(calculation);">0</button>
+    <button onClick="calculation += '/'; console.log(calculation);">/</button>
+    <!-- Clear button: resets the calculation string -->
+    <button onClick="calculation = ''; console.log('Cleared!');">C</button>
+    <!-- Equals button: evaluates the string -->
+    <button onClick="
+      calculation = eval(calculation);
+      console.log(calculation);
+    ">=</button>
+  </p>
+
+  <script>
+    // This variable holds the expression string (e.g. "1+2+3")
+    let calculation = "";
+  </script>
+
+</body>
+</html>
