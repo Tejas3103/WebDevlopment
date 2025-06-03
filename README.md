@@ -25,30 +25,6 @@ A collection of various **JavaScript** projects and exercises, aimed at helping 
 - **AJAX / Fetch API**
 - **WebSockets** (for chat app)
   
-## 📂 Directory Structure
-
-```
-WebDevlopment/
-└── javascript/
-    ├── basic-dom-manipulation/
-    │   └── index.html        # Example HTML file for DOM manipulation
-    │   └── script.js         # JS for interacting with the DOM
-    ├── interactive-forms/
-    │   └── form.html         # Interactive form with validation
-    │   └── form-script.js    # JS for form validation and interaction
-    ├── game-development/
-    │   └── game.html         # Basic game setup (e.g., Snake or Tetris)
-    │   └── game.js           # Game logic and animation
-    ├── data-visualization/
-    │   └── chart.html        # Simple chart/graph creation using JS
-    │   └── chart.js          # Data and JS for rendering graphs
-    ├── authentication/
-    │   └── login.html        # Simple login form
-    │   └── auth.js           # JS for managing login/auth
-    └── chat-app/
-        └── chat.html         # Basic chat UI
-        └── chat.js           # WebSocket-based real-time chat functionality
-```
 
 ## 🚀 How to Run
 
@@ -111,6 +87,3 @@ This project is licensed under the [MIT License](LICENSE).
 Made with ❤️ by [@Tejas3103](https://github.com/Tejas3103)
 ```
 
----
-
-Let me know if you'd like to adjust the `README.md` to reflect specific project details or add additional sections. I kept it general, as the specific project details aren't all listed, but I can tailor it more once I know your requirements!
